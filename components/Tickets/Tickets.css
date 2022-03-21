@@ -31,8 +31,8 @@
 }
 
 .detail > p {
-    color: rgb(161, 161, 161);
-    font-weight: lighter;
+    color: grey;
+    font-weight:normal;
     font-size: 12px;
 }
 
