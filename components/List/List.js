@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { Draggable } from "react-beautiful-dnd";
-import { Droppable } from "react-beautiful-dnd";
-import { DragDropContext } from "react-beautiful-dnd";
+import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import Tickets from "../Tickets/Tickets";
 import "./List.css";
 
