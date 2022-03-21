@@ -96,7 +96,7 @@ function List(props) {
         {Object.entries(list).map(([id, list]) => {
           return (
             <Droppable droppableId={id} key={id}>
-              {(provided, snapshot) => (
+              {(provided) => (
                 <div
                   className="lists"
                   ref={provided.innerRef}
@@ -112,7 +112,7 @@ function List(props) {
                         draggableId={`${t.id}`}
                         index={index}
                       >
-                        {(provided, snapshot) => (
+                        {(provided) => (
                           <div
                             ref={provided.innerRef}
                             {...provided.draggableProps}
