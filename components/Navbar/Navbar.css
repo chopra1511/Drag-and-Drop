@@ -1,0 +1,23 @@
+.btn {
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+
+.search {
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15vw;
+    background-color: whitesmoke;
+    padding: 0 10px;
+    border-bottom: 2px solid grey;
+}
+
+.navbar {
+    margin: 0;
+}
+
+p {
+    margin: 8px;
+}

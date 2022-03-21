@@ -1,0 +1,58 @@
+.ticks {
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    border-left: 4px solid rgb(0, 150, 57);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header > p {
+    font-weight: bold;
+    color: gray;
+
+}
+
+.header > span {
+    border: 2px solid rgb(0, 183, 255);
+    background-color: rgb(194, 238, 255);
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+}
+
+.order > p {
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: bolder;
+    color: rgb(80, 79, 79);
+}
+
+.detail > p {
+    color: rgb(161, 161, 161);
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer > .date {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: grey;
+}
+
+.footer > .to {
+    font-size: 12px;
+    color: grey;
+}
+
+.ticks:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 2px rgb(219, 219, 219);
+}
